@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+}
+ul li{
+    padding: 20px;
+}
+ul li img{
+    width: 250px;
+    height: 150px;
+
+}

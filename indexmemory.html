@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+>
+</head>
+<style>
+    body{
+        place-items: center;
+    }
+    h1{
+        text-align: center;
+        background-color: black;
+        
+    }
+    ul{
+        margin-left: 450px;
+        list-style-type: none;
+        width: 400px;
+        height: 400px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    li{
+        border: 2px solid black;
+        background-color: aqua;
+        cursor: pointer;
+    }
+    img{
+        width: 100px;;
+        height: 100px;
+        display: grid;
+        opacity: 0;
+    }
+</style>
+<body>
+    <h1 class="title is-3">MEMORY GAME</h1>
+    <ul>
+        <li onclick="reveal('tile0')" ><img src="" alt="" id="tile0"></li>
+        <li onclick="reveal('tile1')" ><img src="" alt="" id="tile1" ></li>
+        <li onclick="reveal('tile2')" ><img src="" alt="" id="tile2"></li>
+        <li onclick="reveal('tile3')" ><img src="" alt="" id="tile3"></li>
+        <li onclick="reveal('tile4')" ><img src="" alt="" id="tile4"></li>
+        <li onclick="reveal('tile5')" ><img src="" alt="" id="tile5"></li>
+        <li onclick="reveal('tile6')" ><img src="" alt="" id="tile6"></li>
+        <li onclick="reveal('tile7')" ><img src="" alt="" id="tile7"></li>
+        <li onclick="reveal('tile8')" ><img src="" alt="" id="tile8"></li>
+        <li onclick="reveal('tile9')"><img src="" alt="" id="tile9"></li>
+        <li onclick="reveal('tile10')"><img src="" alt="" id="tile10"></li>
+        <li onclick="reveal('tile11')"><img src="" alt="" id="tile11"></li>
+        <li onclick="reveal('tile12')"><img src="" alt="" id="tile12"></li>
+        <li onclick="reveal('tile13')"><img src="" alt="" id="tile13"></li>
+        <li onclick="reveal('tile14')"><img src="" alt="" id="tile14"></li>
+        <li onclick="reveal('tile15')"><img src="" alt="" id="tile15"></li>
+        
+        
+        
+    </ul>
+    <button><a href="index.html">Go back</a></button>
+    <script src="memory.js"></script>
+</body>
+</html>
